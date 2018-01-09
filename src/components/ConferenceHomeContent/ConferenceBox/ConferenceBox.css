@@ -1,0 +1,73 @@
+.conference-box {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E4E4E4;
+  max-height: 10em;
+  height: 10em;
+}
+
+.conference-box-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+}
+
+span.conference-title {
+  font-size: 2em;
+}
+
+p.conference-content {
+  font-size: 0.8em;
+}
+
+.conference-date {
+  color: #73D5D8;
+  margin-top: 20px;
+}
+
+.conference-status {
+  margin-left: 10px;
+  border: 0;
+  border-radius: 2em;
+  width: 6em;
+  color: white;
+  background-color:#CCCCCC 
+}
+
+.conference-status:hover:enabled {
+  /* play something */
+}
+
+.conference-status-read {
+  margin-left: 10px;
+  border: 0;
+  border-radius: 2em;
+  width: 6em;
+  background-color: #73D5D8;
+  color: white;
+}
+
+.conference-box-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-top: 1.8em;
+}
+
+.conference-detail-btn {
+  border: 0;
+  font-size: 16px;
+  width: 10em;
+  height: 2.6em;
+  border-radius: 2em;
+  background-color: #73D5D8;
+  color: white;
+}
+
+.conference-detail-btn:hover {
+  background-color: aquamarine;
+}
+
+

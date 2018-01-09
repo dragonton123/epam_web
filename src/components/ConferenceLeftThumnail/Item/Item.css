@@ -1,0 +1,39 @@
+.thumnail-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4F4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.thumnail-item.selected {
+  border: 2px solid #73D5D8;
+}
+
+.thumnail-item p {
+  color: rgb(46, 45, 45);
+}
+
+.pdf-thumnail {
+  width: 40px;
+  
+}
+
+.currect-icon {
+  position: absolute;
+  width: 2em;
+  right: 2px;
+  top: 2px;
+}
+
+.pdf-name {
+  font-size: 10px;
+  margin-top: 3px;
+  max-height: 110px;
+  text-align: center;
+}

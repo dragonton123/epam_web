@@ -1,0 +1,35 @@
+.content {
+  padding: 20px;
+}
+
+.navbar {
+  margin-top: 10px;
+  color: white;
+}
+
+.navbar#header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0 0 10px
+}
+
+a.navbar-item {
+  color: #76E2E6 !important;
+}
+
+a.navbar-item:hover {
+  color: #2ecc71 !important;
+  background: transparent !important;
+}
+.navbar-brand {
+  align-items: center !important;
+}
+.navbar-brand img {
+  width: 3em;
+}

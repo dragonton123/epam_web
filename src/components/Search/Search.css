@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#search-box {
+  border-radius: 2em;
+  width: 100%;
+}
+
+.search .control {
+  flex: 1 !important;
+  width: 100% !important;
+}
+
+.search-btn {
+  border: 0;
+  font-size: 16px;
+  width: 10em;
+  height: 2.3em;
+  border-radius: 2em;
+  background-color: #73D5D8;
+  color: white;
+  position: absolute;
+}
+
+.search-btn:hover {
+  background-color: aquamarine;
+}
+
+.search-icon {
+  width: 1em;
+  margin-left: 4px;
+}

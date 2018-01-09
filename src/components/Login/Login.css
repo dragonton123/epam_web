@@ -1,0 +1,57 @@
+.logo-container {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.btn_container {
+  margin-top: 25px;
+}
+
+.button.login {
+  width: 100%;
+  border: 2px solid #76E2E6;
+  border-radius: 16px;
+  background-color: rgba(118, 226, 230, 0.3);
+  color: white;
+}
+
+.button.login:hover {
+  background-color: rgba(118, 226, 230, 0.8);
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.input.login {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  
+}
+
+.input.login::placeholder {
+  color: white;
+}
+
+.login-icon {
+  height: 16px !important;
+}
+
+#password {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 375px) {
+  .container-login {
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}

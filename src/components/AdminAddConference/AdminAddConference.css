@@ -1,0 +1,39 @@
+.add-conference-wrapper {
+  display: flex;
+  width: 370px;
+  height: 100px;
+  
+  position: absolute;
+  top: 20em;
+
+}
+
+.add-conference-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.conference-btn {
+  width: 13em;
+  height: 3em;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2em;
+  color: white;
+}
+
+.conference-btn:hover {
+  background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.conference-btn.selected {
+  border: 2px solid #76E2E6;
+  background-color: rgba(118, 226, 230, 0.3);
+}
+
+.conference-btn.selected:hover {
+  background-color: rgba(118, 226, 230, 0.8);
+}

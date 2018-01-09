@@ -1,0 +1,27 @@
+.header-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 1em;
+}
+
+.dropdown-blue {
+  margin-left: 1em;
+  width: 22px;
+}
+
+.header-profile button {
+  border: 0;
+  background: transparent;
+}
+
+.active-dropdown {
+  display: block !important;
+  
+}

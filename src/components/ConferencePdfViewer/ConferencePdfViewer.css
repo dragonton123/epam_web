@@ -1,0 +1,96 @@
+
+.Example__container__document {
+  position: relative;
+  max-height: 100vh;
+  
+}
+
+.Example__container__document .ReactPDF__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 580px;
+  padding-top: 9%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #E3E3E3;
+
+}
+
+.Example__container__document .ReactPDF__Page {
+  max-width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Example__container__document .ReactPDF__Page canvas {
+  max-width: 80% !important;
+  height: auto !important;
+}
+.Example__container__document .ReactPDF__Loader,
+.Example__container__document .ReactPDF__Error,
+.Example__container__document .ReactPDF__NoData {
+  padding: 20px;
+  color: white;
+}
+
+.Example__container__document .level {
+  padding-left: 1em;
+  position: absolute;
+  bottom: 10px;
+}
+
+.Example__container__document .level .level-right {
+  margin-left: 3em;
+}
+
+#accept-term {
+  background-color: #73D5D8;
+  height: 42px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-size: 12px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 42px;
+  color: white;
+
+  border: 0;
+  border-radius: 2em;
+
+}
+
+a#accept-term:hover {
+  background-color: aquamarine;
+}
+
+#pdf-action {
+  display: flex;
+  justify-content: space-between;
+  width: 12em;
+  height: 42px;
+  align-items: center;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2em;
+}
+
+#pdf-action img {
+  width: 30px;
+  height: 30px;
+  /* background-color: wheat; */
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#pdf-action img:hover {
+  background: rgba(0, 0, 0, 0.3);
+}

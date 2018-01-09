@@ -1,0 +1,85 @@
+.user-table-container {
+  height: 25em;
+  overflow-y: scroll;
+
+}
+
+.title-user-table {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.title-user-table .delete-all-user:last-child {
+  margin-left: auto;
+  
+}
+
+.delete-all-user {
+  font-size: 12px;
+  margin-top: 18px;
+  color: #73D5D8;
+}
+
+.delete-all-user:hover {
+  color: #73D5D8;
+  text-decoration: underline;
+}
+
+
+
+.user-obj {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+}
+
+.user-obj.odd {
+  background-color: #F2F2F2
+}
+
+.user-obj img:last-child {
+  margin-left: auto
+}
+
+.user-avatar {
+  width: 2.5em;
+  margin-left: 1em;
+}
+
+.name-phone-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.user-phone {
+  font-size: 12px;
+  color: gray;
+}
+
+.delete-user-row {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  padding: 4px;
+  border-radius: 2em;
+}
+
+.select-user-row {
+  width: 2em;
+  height: 2em;
+  margin-right: 1.5em
+}
+
+.select-user-row-add {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1.5em
+}
+
+.delete-user-row:hover {
+  background-color: rgba(0, 0, 0, 0.199)
+}
